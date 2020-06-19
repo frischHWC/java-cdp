@@ -1,0 +1,33 @@
+= Java app CDP
+
+Goal of this project is to ...
+
+
+== How to run it ?
+
+First, go to link:pom.xml[pom.xml] and change cdp version to yours, change also if required, individual versions of each component. +
+Then Package the program:
+
+        mvn clean package
+
+Then you can run it using this java command:
+
+[source,bash]
+java -jar java-app-cdp.jar
+
+
+It is also possible to launch it on a platform using script: link:src/main/resources/launchToPlatform.sh[src/main/resources/launchToPlatform.sh].
+(Adapt it to your needs by changing user & machine of the platform) +
+
+
+To run it on YARN, check project link:https://github.infra.cloudera.com/frisch/yarnsubmit[yarn-submit] .
+
+
+== Where to code ?
+
+1. In Main File and everywhere you want
+
+
+== To Debug
+
+[source,bash]
