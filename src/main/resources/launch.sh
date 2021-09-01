@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export DIR="/home/root/java-app-cdp"
+export DIR="/root/java-app-cdp"
 
 echo "*** Starting to launch program ***"
 

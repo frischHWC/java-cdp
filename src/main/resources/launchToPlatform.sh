@@ -4,7 +4,7 @@
 # export HOST=
 
 export USER=root
-export DEST_DIR="/home/root/java-app-cdp"
+export DEST_DIR="/root/java-app-cdp"
 
 echo "Create needed directory on platform and send required files there"
 
