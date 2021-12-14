@@ -6,4 +6,7 @@ target/*
 target/
 *.log
 src/main/resources/overallLaunch.sh
-
+.factorypath
+.classpath
+.settings
+.project
